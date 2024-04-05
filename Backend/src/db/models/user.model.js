@@ -1,3 +1,4 @@
+// & Clase User
 class User {
   constructor(name, email, password, gender=null, birthdate=null) {
       this.name = name;
@@ -51,7 +52,6 @@ class User {
     return {
       name: this.name,
       email: this.email,
-      password: this.password,
       gender: this.gender,
       birthdate: this.birthdate
     }
